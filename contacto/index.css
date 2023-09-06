@@ -1,0 +1,89 @@
+.conteiner-contacto-form-cont{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+.contacto-form-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0px;
+    padding: 82px 33px;
+    height: 667px;
+    /* width: 310px; */
+
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+@media (min-width: 652px){
+    .contacto-form-cont {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 578px;
+
+        margin: 0 auto;
+    }
+}
+
+.contacto-form-cont header {
+    text-align: center;
+    font-size: 32px;
+
+    margin-bottom: 27px;
+}
+
+@media (min-width: 652px){
+    .contacto-form-cont header {
+        margin: 0;
+    }
+}
+
+.contacto-form-cont form{
+    display: flex;
+    flex-direction: column;
+
+    width: 310px;
+}
+
+.contacto-form-cont form p{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.contacto-form-cont form input {
+    height: 39px;
+    width: 304px;
+    padding: 0;
+    
+    border-radius: 4px;
+    border: 3px solid #2C2C2C;
+}
+
+.contacto-form-cont form label {
+    margin-bottom: 27px;
+}
+
+.contacto-form-cont__textarea-mensaje {
+    height: 113px !important;
+}
+
+.contacto-form-cont__submit {
+    width: 310px !important;
+
+    margin-top: 33px;
+
+    border-radius: 4px;
+    background: #2C2C2C;
+
+    color: #DBDBDB;
+    font-weight: 700;
+    font-size: 16px;
+}

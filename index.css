@@ -1,0 +1,19 @@
+.rectangulo-rojo {
+    background-color: #DE4545;
+    height: 90px;
+}
+
+.rectangulo-celeste {
+    background-color: #5FE0C9;
+    height: 320px;
+
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+    padding: 249px 0 0 0;
+}
